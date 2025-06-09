@@ -1,0 +1,225 @@
+#!MANAGED-CONFIG https://69yun69.com/link/PHuKq1UeyDBbV3px?clash=1
+
+#---------------------------------------------------#
+## 上次更新于：2025-06-09 11:53:07
+#---------------------------------------------------#
+
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: true
+mode: rule
+log-level: silent
+external-controller: '0.0.0.0:9090'
+secret: ''
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver:
+    - 'https://doh.pub/dns-query'
+    - 'https://dns.alidns.com/dns-query'
+  fallback:
+    - 'https://doh.dns.sb/dns-query'
+    - 'https://dns.cloudflare.com/dns-query'
+    - 'https://dns.twnic.tw/dns-query'
+    - 'tls://8.8.4.4:853'
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+proxies:
+  -
+    name: '🇭🇰 [IPLC-香港1] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 37685
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇭🇰 [IPLC-香港2] ✨ 2x'
+    type: ss
+    server: 69-in-2.226969.xyz
+    port: 37115
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇭🇰 [IPLC-香港3] ✨ 2x'
+    type: ss
+    server: 69-in-3.226969.xyz
+    port: 39631
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇭🇰 [IPLC-香港4] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 28147
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇭🇰 [IPLC-香港5] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 28157
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇭🇰 [IPLC-香港6] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 35463
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇭🇰 [IPLC-香港8] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 48178
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇭🇰 [IPLC-香港9-动态家宽] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 20331
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇹🇼 [IPLC-台湾地区1] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 37686
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇹🇼 [IPLC-台湾地区4] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 46711
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇧🇷 [IPLC-巴西1] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 44533
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇯🇵 [IPLC-日本1] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 37687
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇺🇲 [IPLC-美国1] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 43230
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇺🇲 [IPLC-美国6] ✨ 2x'
+    type: ss
+    server: 69-in-2.226969.xyz
+    port: 33223
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇺🇲 [IPLC-美国7] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 50705
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇬🇧 [IPLC-英国1] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 45337
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇰🇷 [IPLC-韩国1] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 30403
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇹🇼 [直连-台湾1] ✨ 2x'
+    type: vmess
+    server: tw-niihost-k3.226969.xyz
+    port: 11049
+    uuid: 82fb9bdf-6123-394c-a87d-3bfd77ac9565
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '🇹🇼 [IPLC-家宽-台湾1] ✨ 2x'
+    type: vmess
+    server: 69-in-1.226969.xyz
+    port: 11029
+    uuid: 82fb9bdf-6123-394c-a87d-3bfd77ac9565
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '🇺🇲 [IPLC-家宽-美国1] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 35247
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇨🇦 [IPLC-加拿大1] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 45425
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇮🇳 [IPLC-印度1] ✨ 2x'
+    type: ss
+    server: 69-in-1.226969.xyz
+    port: 44327
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '[IPLC-孟加拉] ✨ 2x'
+    type: ss
+    server: 69-in-2.226969.xyz
+    port: 30180
+    cipher: aes-256-gcm
+    password: aKRM7g6yAbmebKWl
+    udp: true
+  -
+    name: '🇩🇪 [IPLC-德国1] ✨ 2x'
